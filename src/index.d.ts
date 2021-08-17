@@ -285,6 +285,13 @@ declare namespace connect {
      */
     readonly loginPopup?: boolean;
 
+
+    /**
+     * Set to `true` to disable iframe refresh.
+     * @default false
+     */
+    readonly disableRefreshIframe?: boolean;
+
     /**
      * Options to open login popup in a new window instead of a new tab. If loginPopup is set to
      * `false`, these options will be ignored.
